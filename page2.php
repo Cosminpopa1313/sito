@@ -11,7 +11,9 @@ if($conn->connect_error){
     die("Connessione fallita: ".$conn->connect_error);
 }
 
-$sql = "INSERT INTO dati(name) VALUES (".$_POST["name"].")";
+$nome = $_POST["name"];
+
+$sql = "INSERT INTO dati(name) VALUES ('".$nome."')";
 if($conn->query($sql) ===  TRUE){
     echo "BENVENUTO ".$_POST["name"]."!";
 }
@@ -20,7 +22,7 @@ else{
 }
 $conn->close();
 
-echo "BENVENUTO ".$_POST["name"]."!";
+echo "BENVENUTO ".$nome."!";
 
 
 ?>
