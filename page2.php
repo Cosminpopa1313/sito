@@ -15,14 +15,13 @@ $nome = $_POST["name"];
 
 $sql = "INSERT INTO dati(name) VALUES ('".$nome."')";
 if($conn->query($sql) ===  TRUE){
-    echo "BENVENUTO ".$_POST["name"]."!";
+    echo "BENVENUTO ".$nome."!";
 }
 else{
     echo "ERROREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE";
 }
 $conn->close();
 
-echo "BENVENUTO ".$nome."!";
 
 
 ?>
