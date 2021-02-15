@@ -15,9 +15,9 @@ if($conn->connect_error){
 echo "connessione avvenuta con successo!"."<br>";
 
 $sql = "select name from dati";
-echo "1";
-$result = $conn->querry($sql);
-echo "2";
+
+$result = $conn->query($sql);
+
 if ($result->num_rows > 0) {
     
     while($row = $result->fetch_assoc()) {
@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
   }
 
-echo "3";
+
   $conn->close();
 
 
