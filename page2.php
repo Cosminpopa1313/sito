@@ -12,7 +12,12 @@ if($conn->connect_error){
 }
 
 $sql = "INSERT INTO dati(name) VALUES (".$_POST["name"].")";
-$conn->query($sql);
+if($conn->query($sql) ===  TRUE){
+    echo "BENVENUTO ".$_POST["name"]."!";
+}
+else{
+    echo "ERROREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE";
+}
 $conn->close();
 
 echo "BENVENUTO ".$_POST["name"]."!";
