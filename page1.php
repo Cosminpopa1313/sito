@@ -1,7 +1,7 @@
 <?php
 
 
-$servername = "localhost";
+$servername = "192.168.1.10";
 $username = "root";
 $password = "Cosmin13database";
 $dbname = "prova";
