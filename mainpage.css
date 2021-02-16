@@ -6,6 +6,7 @@ header{
     color: black;
     margin: 0%;
     top:0;
+    height: 140;
 }
 
 nav{
@@ -25,11 +26,12 @@ nav{
     font-size: 80;
     text-align: center;
     color: #66e0ff;
+    margin-bottom: 5px;
 }
 
 
 
-body{
+.body{
     background-color: #f2f2f2;
     width: auto;
     color: black;
