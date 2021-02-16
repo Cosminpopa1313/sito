@@ -5,6 +5,21 @@ header{
     width:auto;
     color: black;
     margin: 0%;
+    top:0;
+}
+
+header.nav.a{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20;
+}
+
+.navigazioneTasti{
+    left: 0px;
+}
+
+.loginRegistrati{
+    right: 0px;
 }
 
 header.title{
@@ -20,6 +35,7 @@ body{
 }
 
 footer{
+    bottom: 0;
     background-color: #a6a6a6;
     width: auto;
     color: black;
