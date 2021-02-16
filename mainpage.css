@@ -14,8 +14,11 @@ a{
     font-size: 20;
 }
 a.login{
-    right: 0px;
-    left: auto;
+    text-align: right;
+}
+
+a.titlenav{
+    font-size: 100;
 }
 
 
