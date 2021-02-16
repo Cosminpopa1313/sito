@@ -24,21 +24,17 @@ nav{
 .titlenav{
     font-size: 80;
     text-align: center;
-}
-
-
-
-.title{
-    font-size: 100;
     color: #66e0ff;
 }
+
+
 
 body{
     background-color: #f2f2f2;
     width: auto;
     color: black;
     margin: 0%;
-    height: 70%;
+    height: 700px;
 }
 
 footer{
