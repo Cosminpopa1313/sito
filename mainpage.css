@@ -8,13 +8,17 @@ header{
     top:0;
 }
 
-a{
+nav{
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 40;
+    font-size: 30;
 }
 .login{
     text-align: right;
+}
+.login:hover{
+    color:white;
+    font-size: 35;
 }
 
 .titlenav{
@@ -34,6 +38,7 @@ body{
     width: auto;
     color: black;
     margin: 0%;
+    height: 70%;
 }
 
 footer{
